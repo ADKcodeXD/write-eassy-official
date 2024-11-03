@@ -1,54 +1,88 @@
 ---
-title: Pricing
-description: "meta description"
+title: 付费计划
+description: "Write essay 的付费计划"
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
+- title: 免费计划
+  subtitle: 您可以免费体验我们的App
+  price: 0
   type: month
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - title: 自定义批改题目
+      isOk: true
+    - title: 解锁个人统计报告页面
+      isOk: true
+    - title: 使用标准版模型进行批改(可免费进行批改两次)
+      isOk: true
+    - title: 翻译以及AI助手服务
+      isOk: false
+    - title: 使用高级模型(Gpt-4o Sonnet 3.5)
+      isOk: false
+    - title: 个性化定制服务
+      isOk: false
+    - title: 使用高级模型
+      isOk: false
+    - title: 定制化服务
+      isOk: false
   button:
-    label: Get started for free
-    link: "/contact"
+    label: 现在开始使用
 
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
+- title: 白金会员
+  subtitle: 享受本站所有服务
+  price: 5
   type: month
   recommended: true
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
+    - title: 自定义批改题目
+      isOk: true
+    - title: 解锁个人统计报告页面
+      isOk: true
+    - title: 使用标准版模型进行批改(每个月可免费进行约100次)
+      isOk: true
+    - title: 翻译以及AI助手服务
+      isOk: true
+    - title: 使用高级模型(Gpt-4o Sonnet 3.5)（每个月可免费进行约15次）
+      isOk: true
+    - title: 个性化定制服务
+      isOk: true
+    - title: 使用高级模型
+      isOk: true 
+    - title: 定制化服务
+      isOk: false
   button:
-    label: Get started
+    label: 现在订阅
     link: "/contact"
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
+- title: 高级会员
+  subtitle: 更加多的配额
+  price: 10
   type: month
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - title: 自定义批改题目
+      isOk: true
+    - title: 解锁个人统计报告页面
+      isOk: true
+    - title: 使用标准版模型进行批改(每个月可免费进行约300次)
+      isOk: true
+    - title: 翻译以及AI助手服务
+      isOk: true
+    - title: 使用高级模型(Gpt-4o Sonnet 3.5)（每个月可免费进行约50次）
+      isOk: true
+    - title: 个性化定制服务
+      isOk: true
+    - title: 使用高级模型
+      isOk: true 
+    - title: 定制化服务
+      isOk: false
   button:
-    label: Get started
+    label: 现在订阅
     link: "/contact"
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.png'
+  title: 需要定制化服务？
+  content: 请联系我们对您的需求进行评估，我们将尽快给您答复
   button:
     enable: true
-    label: "Contact Us"
+    label: "联系我们"
     link: "/contact"
-    
 ---

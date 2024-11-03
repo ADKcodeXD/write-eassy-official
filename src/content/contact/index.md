@@ -1,12 +1,13 @@
 ---
-title: "Contact Us"
+title: "联系我们"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: 通过社交媒体或电话联系Write Essay
+  description: 您可以通过以下方式联系我们
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "电话: +86 13416604981"
+    - "邮件: [adk16604981@gamil.com](mailto:adk16604981@gamil.com)"
+    - "WeChat: Adkweixin-"
+    - "QQ: 790532173"
 ---
 

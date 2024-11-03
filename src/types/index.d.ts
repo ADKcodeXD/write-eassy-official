@@ -55,7 +55,10 @@ export type TPlan = {
   price: number;
   recommended: boolean;
   type: string;
-  features: string[];
+  features: {
+    title: string;
+    isOk: boolean;
+  }[];
   button: {
     label: string;
     link: string;

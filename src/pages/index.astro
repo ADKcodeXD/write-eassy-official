@@ -6,16 +6,16 @@ import { markdownify } from "@/lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, feature, services, workflow, call_to_action } = homepage.data;
+const { banner, feature, services, call_to_action } = homepage.data;
 ---
 
 <Base>
   <!-- banner -->
   <section class="section pb-[50px]">
     <div class="container">
-      <div class="row text-center">
+      <div class="text-center row">
         <div class="mx-auto lg:col-10">
-          <h1 class="font-primary font-bold">{banner?.title}</h1>
+          <h1 class="font-bold font-primary">{banner?.title}</h1>
           {
             banner?.content && (
               <p class="mt-4" set:html={markdownify(banner.content)} />
@@ -23,23 +23,11 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
           }
 
           {
-            banner?.button?.enable && (
-              <a class="btn btn-primary mt-4" href={banner.button.link}>
-                {banner.button.label}
+            banner?.buttons && banner?.buttons.map((button: any) => button.enable && (
+              <a class="mx-4 mt-4 btn btn-primary" href={button.link}>
+                {button.label}
               </a>
-            )
-          }
-
-          {
-            banner?.image && (
-              <Image
-                class="mx-auto mt-12"
-                src={banner?.image}
-                width={750}
-                height={390}
-                alt="banner image"
-              />
-            )
+            ))
           }
         </div>
       </div>
@@ -52,20 +40,13 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       <div class="text-center">
         <h2>{markdownify(feature!.title)}</h2>
       </div>
-      <div class="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid mt-8 gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
         {
           feature!.features.map((item: any, i: number) => (
-            <div class="feature-card rounded-xl bg-white p-5 pb-8 text-center">
+            <div class="p-5 pb-8 text-center bg-white feature-card rounded-xl">
               {item.icon && (
-                // <Image
-                //   class="mx-auto"
-                //   src={item.icon}
-                //   width={30}
-                //   height={30}
-                //   alt=""
-                // />
                 <img
-                  class="mx-auto"
+                  class="mx-auto text-primary"
                   alt={item.icon}
                   src={item.icon}
                   width={30}
@@ -129,7 +110,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                 {service?.button?.enable && (
                   <a
                     href={service?.button.link}
-                    class="cta-link inline-flex items-center text-primary"
+                    class="inline-flex items-center cta-link text-primary"
                   >
                     {service?.button.label}
                     <img
@@ -170,24 +151,6 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       });
     });
   </script>
-  <!-- ./End service -->
-
-  <!-- Workflow -->
-  <section class="section pb-0">
-    <div class="mb-8 text-center">
-      <h2
-        class="mx-auto max-w-[400px] font-bold leading-[44px]"
-        set:html={workflow?.title}
-      />
-      <p class="mt-3" set:html={workflow?.description} />
-    </div>
-    <Image
-      src={workflow!.image}
-      alt="workflow image"
-      width={1920}
-      height={414}
-    />
-  </section>
 
   <!-- Call to Action -->
   <Cta cta={call_to_action} />

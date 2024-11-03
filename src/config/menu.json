@@ -1,74 +1,49 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "介绍",
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
-      "name": "Pricing",
+      "name": "付费计划",
       "url": "/pricing"
     },
     {
-      "name": "Contact",
+      "name": "联系我们",
       "url": "/contact"
     },
     {
-      "name": "FAQ",
+      "name": "常见问题",
       "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "产品",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
+          "text": "功能介绍",
           "url": "#"
         },
         {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
+          "text": "价格",
           "url": "/pricing"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "支持",
       "menu": [
         {
           "text": "FAQ",
           "url": "/faq"
         },
         {
-          "text": "Privacy Policy",
+          "text": "隐私政策",
           "url": "/privacy-policy"
         },
         {
-          "text": "Terms & Conditions",
+          "text": "用户条款协议",
           "url": "/terms-conditions"
         }
       ]

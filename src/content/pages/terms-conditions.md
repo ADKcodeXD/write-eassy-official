@@ -1,29 +1,34 @@
 ---
-title: "Terms and Conditions"
-description: "this is meta description"
+title: "服务条款"
+description: "Write Essay 服务条款"
 draft: false
 ---
 
-#### Responsibility of Contributors
+**最后更新：** 2024年11月3日
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+欢迎使用“Write Essay”网站（以下简称“本网站”）。使用本网站即表示您同意遵守以下条款和条件。如果您不同意这些条款，请勿使用本网站。
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+### 1. 服务描述
+“Write Essay”提供雅思写作评分系统。本服务旨在帮助用户提高写作能力并获得专业反馈。
 
-#### Gathering of Personal Information
+### 2. 订阅服务
+本网站提供月付订阅服务。订阅费用将在您确认订阅时收取。您可以随时取消订阅，取消后将不再收取下一个月的费用。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+### 3. 用户信息
+在使用本网站时，您可能需要提供个人信息（如电子邮件地址、姓名等）。我们将仅在提供服务所需的范围内保存和使用这些信息。您的信息将不会用于任何其他目的。
 
-#### Protection of Personal- Information
+### 4. 第三方登录
+本网站支持第三方登录（如Google、Github等）。通过第三方账户登录时，您同意遵循该第三方的隐私政策和条款。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+### 5. Cookie使用
+本网站使用Cookies来提升用户体验。Cookies是存储在您设备上的小文件，用于收集和存储信息。您可以通过浏览器设置管理Cookies的使用。
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+### 6. 免责声明
+我们不对因使用本网站而导致的任何直接或间接损失负责。所有服务和内容均按“现状”提供。
 
-#### Privacy Policy Changes
+### 7. 修改条款
+我们保留随时修改这些条款和条件的权利。修改后的条款将在本网站上发布，您继续使用本网站即表示您接受这些修改。
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+### 8. 联系我们
+如有任何疑问或反馈，请联系我们：
+- 电子邮件：adk16604981@gmail.com

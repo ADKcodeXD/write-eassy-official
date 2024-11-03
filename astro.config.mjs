@@ -53,4 +53,8 @@ export default defineConfig({
     },
     extendDefaultPlugins: true,
   },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-CN", "ja"],
+  },
 });
